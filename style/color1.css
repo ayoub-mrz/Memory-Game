@@ -1,0 +1,97 @@
+:root {
+  --mainColor1: linear-gradient(0deg, #fdd64a, #fc7f8d);
+}
+/* --scroll Bar-- */
+* {
+  scrollbar-color: #e4bd32 #c3c3c3;
+}
+::-webkit-scrollbar-track {
+  background: #c3c3c3;
+}
+::-webkit-scrollbar-thumb {
+  background: #e4bd32;
+  border: 2px solid #c3c3c3;
+}
+/* -------------- */
+body {
+  background: url(img/Background-Desktop-1.jpg) center;
+  background-size: cover;
+}
+.undo {
+  background: url(img/Arrow-Undo-1.png);
+  background-size: contain;
+}
+.game nav .fails {
+  background: url(img/Arrow-1.png) no-repeat center;
+  background-size: contain;
+}
+@media (max-width: 600px) {
+  body {
+    background: url(img/Background-Mobile-1.jpg);
+  }
+}
+.cards-container .game-block .front {
+  background: linear-gradient(0deg, #f74a78, #f086dd);
+}
+#selectBtn {
+  background: var(--mainColor1) no-repeat center;
+}
+#selectvalue {
+  background: #fc7f8d;
+  color: #fff;
+}
+#selectvalue:after {
+  border-color: #fc7f8d transparent transparent transparent;
+}
+#progress-sound-bar {
+  background: var(--mainColor1);
+}
+.menu .giveName input {
+  border: 2px solid #fdb761;
+  color: rgb(221 120 135);
+}
+.menu .giveName button {
+  color: #fff;
+  background: linear-gradient(45deg, #fdc558, #fb7c8f);
+}
+.giveName .opt span {
+  background: #fb848a;
+}
+.leaderBoard h4 {
+  background: #e53935;
+}
+.leaderBoard .categorie-chose span.show {
+  color: #e91e63;
+}
+.leaderBoard .list {
+  background: #f74656;
+}
+.leaderBoard .history .user .num {
+  color: #f74656;
+}
+#done {
+  background: linear-gradient(45deg, #f18e28, #ff6350);
+}
+#done .container {
+  background: #fec689;
+}
+#done .container .status-game {
+  background: url(img/youWin-1.png) no-repeat;
+  background-size: contain;
+}
+#done .container .level-game {
+  background: #fcb364;
+}
+#done .container .level-game h5 {
+  color: #ef6c00;
+}
+#done .container .reload {
+  background: url(img/reload-1.png) no-repeat;
+  background-size: contain;
+}
+
+@media (min-width: 992px) {
+  * {
+    cursor: url(./img/Cursor-1.png), pointer;
+  }
+}

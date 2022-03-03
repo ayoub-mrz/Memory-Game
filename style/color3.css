@@ -1,0 +1,98 @@
+:root {
+  --mainColor3: linear-gradient(0deg, #d50a85, #51117f);
+}
+/* --scroll Bar-- */
+* {
+  scrollbar-color: #7f1cc5 #c3c3c3;
+}
+::-webkit-scrollbar-track {
+  background: #c3c3c3;
+}
+::-webkit-scrollbar-thumb {
+  background: #7717bb;
+  border: 2px solid #c3c3c3;
+}
+/* -------------- */
+body {
+  background: url(img/Background-Desktop-3.jpg);
+  background-size: cover;
+}
+.undo {
+  background: url(img/Arrow-Undo-3.png);
+  background-size: contain;
+}
+.game nav .fails {
+  background: url(img/Arrow-3.png) no-repeat center;
+  background-size: contain;
+}
+@media (max-width: 600px) {
+  body {
+    background: url(img/Background-Mobile-3.jpg);
+  }
+}
+.cards-container .game-block .front {
+  background: linear-gradient(0deg, #5b56c1, #e6b6ad);
+}
+#selectBtn {
+  background: var(--mainColor3) no-repeat center;
+}
+#selectvalue {
+  background: #51117f;
+  color: #fff;
+}
+#selectvalue:after {
+  border-color: #51117f transparent transparent transparent;
+}
+#progress-sound-bar {
+  background: var(--mainColor3);
+}
+.menu .giveName input {
+  border: 2px solid #51117f;
+  color: rgb(151 14 130);
+}
+.menu .giveName button {
+  color: #fff;
+  background: linear-gradient(45deg, #980d81, #51117f);
+}
+.giveName .opt span {
+  background: #51117f;
+  color: #fff;
+}
+.leaderBoard h4 {
+  background: #7e57c2;
+}
+.leaderBoard .categorie-chose span.show {
+  color: #0468da;
+}
+.leaderBoard .list {
+  background: #673ab7;
+}
+.leaderBoard .history .user .num {
+  color: #b90c82;
+}
+#done {
+  background: linear-gradient(45deg, #51117f, #a80d83);
+}
+#done .container {
+  background: #6f46b7;
+}
+#done .container .status-game {
+  background: url(img/youWin-3.png) no-repeat;
+  background-size: contain;
+}
+#done .container .level-game {
+  background: #9c27b0;
+}
+#done .container .level-game h5 {
+  color: #4a148c;
+}
+#done .container .reload {
+  background: url(img/reload-3.png) no-repeat;
+  background-size: contain;
+}
+
+@media (min-width: 992px) {
+  * {
+    cursor: url(./img/cursor-3.png), pointer;
+  }
+}

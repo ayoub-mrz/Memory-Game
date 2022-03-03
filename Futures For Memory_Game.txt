@@ -1,0 +1,31 @@
+1/ Download Sounds game-over + Wining + buttons.---------------Done.
+2/ Music option (mute, up/down).-------------------------------Done.
+3/ card flip in the begining.----------------------------------Done.
+3/ Chose Category mode.----------------------------------------Done.
+4/ CountDown bar.----------------------------------------------Done.
+5/ create game-over-MSG.---------------------------------------Done.
+6/ rebuild options move.---------------------------------------Done.
+8/ Do Help Every 1Min.-----------------------------------------Done.
+9/ Add fixed To Flowing Element.-------------------------------Done.
+10/ Pause The Countdoun In Pause and Win.----------------------Done.
+11/ Play Sound Background In The Begin.------------------------Done.
+12/ Make The Game Responsive.----------------------------------Done.
+13/ Create The Stars Level.------------------------------------Done.
+14/ add notification.------------------------------------------Done.
+15/ Create Input For Take The Name.----------------------------Done.
+16/ Check Input If Empty.--------------------------------------Done.
+17/ change cursor.---------------------------------------------Done.
+18/ Button Empty Input.----------------------------------------Done.
+19/ Wining MSG Design.-----------------------------------------Done.
+20/ Add Date To History.---------------------------------------Done.
+21/ Check if LeaderBoard Empty.--------------------------------Done.
+22/ leader-youWin design3 + dificulty slid + inputSpan.--------Done.
+23/ add chadow and color to user.------------------------------Done.
+24/ Design Pause Menu.-----------------------------------------Done.
+25/ Undo button .----------------------------------------------Done.
+26/ gameOver MSG Design.---------------------------------------Done.
+27/ Add Title and img To The Game.-----------------------------DOne.
+28/ Page Loading.----------------------------------------------
+999/ leader board.---------------------------------------------Done.
+9999999999/ Design The Fuking App And Fire him.----------------Done.
+

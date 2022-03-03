@@ -1,0 +1,328 @@
+/* Large */
+@media (max-width: 1200px) {
+  .options {
+    width: 70%;
+  }
+  .sound-h1 {
+    left: 42%;
+  }
+  .chose .container-card {
+    width: 70%;
+  }
+  .cards-container.small {
+    width: 815px;
+    margin-top: 6rem;
+    margin-bottom: 0rem;
+  }
+  .cards-container.small .game-block {
+    height: 130px;
+    width: 115px;
+  }
+  .cards-container.normal {
+    width: 1000px;
+    margin-bottom: 1rem;
+  }
+  .cards-container.normal .game-block {
+    height: 110px;
+    width: 95px;
+  }
+  .cards-container.large {
+    width: 980px;
+  }
+  .cards-container.largest {
+    width: 950px;
+  }
+}
+/* Medium */
+@media (max-width: 992px) {
+  .menu .logo {
+    width: 450px;
+  }
+  .menu .giveName {
+    padding: 5rem 6rem;
+  }
+  .about {
+    width: 80%;
+  }
+  .options {
+    width: 85%;
+  }
+  .tool {
+    left: 135%;
+    padding: 0.5rem 0.7rem;
+  }
+  .chose .container-card img {
+    width: 150px;
+    height: 170px;
+  }
+  .chose .container-card {
+    width: 85%;
+  }
+  .game nav {
+    padding: 0 1rem;
+    flex-wrap: wrap;
+  }
+  .game nav .fails {
+    order: 2;
+  }
+  .game nav .progress-bar {
+    order: 9;
+  }
+  .cards-container {
+    margin-top: 10rem;
+    margin-bottom: 0rem;
+  }
+  .cards-container .game-block {
+    height: 200px;
+    width: 200px;
+    flex: unset;
+  }
+  .cards-container.small {
+    width: 735px;
+    margin-top: 11rem;
+  }
+  .cards-container.small .game-block {
+    height: 115px;
+    width: 100px;
+  }
+  .cards-container.normal {
+    width: 800px;
+    margin-top: 11rem;
+  }
+  #pause-menu {
+    top: 35%;
+  }
+  .cards-container.large {
+    width: 790px;
+    margin-top: 11rem;
+  }
+  .cards-container.largest {
+    width: 750px;
+    margin-top: 10rem;
+  }
+}
+/* Small */
+@media (max-width: 768px) {
+  .menu .logo {
+    width: 410px;
+    height: 110px;
+  }
+  .menu ul li:not(#options) {
+    padding: 1rem 5.56rem;
+  }
+  .menu ul li:last-of-type {
+    bottom: -60px;
+    right: 140px;
+  }
+  .menu .giveName {
+    padding: 4rem 6rem;
+  }
+  .menu .giveName input {
+    padding: 0.8rem 5rem 0.8rem 0.8rem;
+    font-size: 1em;
+  }
+  .giveName .opt span {
+    top: 51px;
+    left: 25px;
+    font-size: 0.7em;
+  }
+  .giveName .opt img {
+    height: 25px;
+    top: 14px;
+  }
+  .leaderBoard {
+    height: 450px;
+  }
+  .leaderBoard .history {
+    height: 324px;
+  }
+  .options {
+    left: -80%;
+  }
+  .difficulty ul li.chose5 {
+    display: none;
+  }
+  .game nav img {
+    height: 40px;
+  }
+  .game nav .progress-bar .progress {
+    width: 350px;
+    margin: 0 20px;
+  }
+  .game nav .fails {
+    padding: 1.5rem 1.9rem;
+    line-height: 20px;
+  }
+  .game nav span,
+  .game nav p {
+    font-size: 16px;
+  }
+  .cards-container.small {
+    width: 600px;
+  }
+  .cards-container.small .game-block {
+    height: 100px;
+    width: 80px;
+    margin: 0 5px 7px;
+  }
+  .cards-container.normal {
+    width: 570px;
+  }
+  .cards-container.normal .game-block {
+    height: 90px;
+    width: 75px;
+  }
+  .cards-container.large {
+    width: 550px;
+  }
+}
+/* Smallest */
+@media (max-width: 576px) {
+  .menu .logo {
+    width: 240px;
+    height: 75px;
+  }
+  .menu ul li:not(#options) {
+    padding: 0.8rem 3.56rem;
+    font-size: 20px;
+  }
+  .menu ul li:last-of-type {
+    bottom: -60px;
+    right: 90px;
+  }
+  .options ul li {
+    height: 70px;
+    width: 70px;
+    border: 2px solid #686868;
+    margin: 0 5px;
+  }
+  .options {
+    width: 90%;
+  }
+  .options h2 {
+    font-size: 1.2rem;
+  }
+  .sound-h1 {
+    left: 35%;
+    font-size: 1.3rem;
+  }
+  .sounds-background {
+    width: 90%;
+  }
+  #selectvalue {
+    width: 30px;
+    height: 35px;
+    padding: 0 0 12px 0;
+    top: 8px;
+    left: 2px;
+  }
+  #selectvalue:after {
+    border: 15px solid;
+    bottom: -29px;
+    left: 0px;
+  }
+  .about {
+    width: 90%;
+    height: 40%;
+    font-size: 0.6em;
+    padding: 0 2rem;
+    top: 35%;
+  }
+  .leaderBoard {
+    height: 450px;
+    width: 290px;
+    min-width: unset;
+  }
+  .leaderBoard h4 {
+    font-size: 1.2em;
+  }
+  .leaderBoard .list {
+    font-size: 0.6em;
+  }
+  .leaderBoard .history p {
+    transform: translate(40%, 280%);
+  }
+  .leaderBoard .history .user {
+    font-size: 0.65em;
+  }
+  .leaderBoard .history .user .num {
+    margin-right: 11px;
+  }
+  .leaderBoard .history .user .user-info span {
+    width: 53px;
+  }
+  .menu .giveName {
+    padding: 3rem 2rem;
+  }
+  .menu .giveName input {
+    padding: 0.8rem 3rem 0.8rem 0.8rem;
+    font-size: 0.8em;
+    margin: 15px 0 30px 0;
+  }
+  .giveName .opt span {
+    top: 62px;
+    left: 12px;
+    font-size: 0.5em;
+  }
+  .menu .giveName button {
+    font-size: 1.3em;
+    padding: 0.4rem 2.4rem;
+  }
+  .giveName .opt img {
+    top: 25px;
+  }
+  .game nav .progress-bar img {
+    height: 30px;
+    margin: 0 0.5rem;
+  }
+  .game nav .progress-bar .progress {
+    width: 170px;
+    height: 25px;
+    margin: 0;
+    margin-right: 10px;
+  }
+  .cards-container {
+    width: 290px;
+  }
+  .cards-container .game-block {
+    height: 125px;
+    width: 110px;
+  }
+  .cards-container.small,
+  .cards-container.large,
+  .cards-container.normal {
+    width: 300px;
+  }
+  .cards-container.small .game-block {
+    height: 85px;
+    width: 60px;
+  }
+  .cards-container.normal .game-block {
+    height: 80px;
+    width: 65px;
+  }
+  .cards-container.large .game-block {
+    height: 75px;
+    width: 64px;
+  }
+  #pause-menu {
+    padding: 3rem 0.5rem;
+  }
+  #pause-menu button img {
+    height: 25px;
+  }
+  #pause-menu button {
+    padding: 1rem 1rem 1rem 1.3rem;
+    margin: 0 0.8rem;
+  }
+  #done {
+    height: 25rem;
+    width: 16rem;
+  }
+  #done .container .stars img {
+    height: 85px;
+  }
+  #done .container .level-game {
+    padding: 1rem 2rem;
+  }
+}

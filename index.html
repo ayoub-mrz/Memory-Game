@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" sizes="64*64" href="img/logo-2.png">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media-query.css">
+    <link id="color1" rel="stylesheet" href="style/color1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+</head>
+<body class="main-btn">
+
+    <!-- Start leaderBoard -->
+    <div class="leaderBoard">
+        <div class="close"><div class="undo"></div></div>
+        <h4>leaderBoard</h4>
+        <div class="slider">
+            <div class="arrow">
+                <span class="left">&leftarrow;</span>
+                <span class="right">&rightarrow;</span>
+            </div>
+            <div class="categorie-chose">
+                <span>Very-Easy</span>
+                <span>Easy</span>
+                <span>Normal</span>
+                <span>Hard</span>
+                <span>Professional</span>
+            </div>
+        </div>
+        <div class="list">
+            <span>Rank</span>
+            <span>Name</span>
+            <span>Fails</span>
+            <span>Time</span>
+            <span>Date</span>
+        </div>
+        <div class="history">
+
+            <div class="his1"></div>
+            <div class="his2"></div>
+            <div class="his3"></div>
+            <div class="his4"></div>
+            <div class="his5"></div>
+
+        </div>
+    </div>
+    <!-- End leaderBoard -->
+
+    <!-- Start Game-Menu -->
+    <div class="menu">
+        <img class="logo" src="img/Logo.png" alt="">
+        <ul>
+            <li class="soundHover soundClick">Start</li>
+            <li class="soundHover soundClick">leaderBoard</li>
+            <li class="soundHover soundClick">About</li>
+            <li class="target" id="options"><img class="soundHover soundClick" src="img/construct-outline.svg" alt=""><span class="tool">options</span></li>
+        </ul>
+        <!-- Start GiveName -->
+    <div class="giveName">
+        <div class="opt">
+            <span>This Input Can't Be Empty.</span>
+            <img src="style/img/close-outline.svg">
+        </div>
+        <input placeholder="Enter Your Name">
+        <button>Go</button>
+        <div class="undo"></div>
+    </div>
+    <!-- End GiveName -->
+    </div>
+    <!-- End Game-Menu -->
+    <!-- Start About  -->
+    <div class="about">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas natus impedit iure, odio 
+            laudantium molestias non distinctio suscipit enim amet numquam quae ipsum repellendus! 
+            Reprehenderit eaque itaque vero? Iste, repellat?</p>
+            <div class="undo"></div>
+        </div>
+        <!-- End About  -->
+        <!-- Start Options -->
+        <div class="options">
+            <div class="sounds-background">
+                <h1 class="sound-h1">Sounds</h1>
+                <div class="khra">
+                    <input id="range" type="range" value="25" min="0" max="99" onchange="vol()">
+                <div id="selector">
+                    <div id="selectBtn"></div>
+                    <div id="selectvalue"></div>
+                </div>
+                <div id="progress-sound-bar"></div>
+                </div>
+            </div>
+            <h2>Chose Your Theme</h2>
+            <ul>
+                <li class="soundHover soundClick" id="color1"></li>
+                <li class="soundHover soundClick" id="color2"></li>
+                <li class="soundHover soundClick" id="color3"></li>
+            </ul>
+            <div class="undo"></div>
+    </div>
+    <!-- End Options -->
+    
+    <!-- Start chose cards -->
+    <div class="chose">
+        <div class="undo undo-page"></div>
+        <h1>Chose Your Cards</h1>
+        <div class="container-card">
+            <div class="cardAll card1">
+                <h3>Chibi</h3>
+                <div id="chibi" class="card">
+                    <img class="soundHover soundClick" src="img/Chibi.png" alt="">
+                </div>
+            </div>
+            <div class="cardAll card2">
+                <h3>Animals</h3>
+                <div id="animals" class="card">
+                    <img class="soundHover soundClick" src="img/fox.png" alt="">
+                </div>
+            </div>
+            <div class="cardAll card3">
+                <h3>Anime</h3>
+                <div id="anime" class="card">
+                    <img class="soundHover soundClick" src="img/Anime.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End chose cards -->
+    <!-- Start chose difficulty -->
+    <div class="difficulty">
+        <div class="undo undo-page"></div>
+        <ul>
+            <li class="target chose1 soundHover soundClick">Very Easy <span class="tool">2x2</span></li>
+            <li class="target chose2 soundHover soundClick">Easy <span class="tool">4x4</span></li>
+            <li class="target chose3 soundHover soundClick">Normal <span class="tool">6x6</span></li>
+            <li class="target chose4 soundHover soundClick">Hard <span class="tool">8x8</span></li>
+            <li class="target chose5 soundHover soundClick">Professional <span class="tool">10x10</span></li>
+        </ul>
+        <div id="num" style="display: none;"></div>
+    </div>
+    <!-- End chose difficulty -->
+    <!-- Start Game -->
+    
+<div class="background"></div>
+<div id="pause-menu">
+    <button class="l-o"><img src="style/img/log-out-outline.svg" alt=""><span class="log-out">log-out</span></button>
+    <button id="high" class="m-o"><img src="img/volume-high-outline.svg" alt=""><span class="Mute-On">On</span></button>
+    <button id="muted" class="m-f"><img src="img/volume-mute-outline.svg" alt=""><span class="Mute-Off">Off</span></button>
+    <button class="pa"><img class="undoToGame" src="style/img/play.svg" alt=""><span class="play">play</span></button>
+</div>
+
+<div id="done">
+    <div class="container">
+        <div class="status-game" id="level-game"></div>
+        <div class="stars"></div>
+        <div class="level-game">
+            <h5>Level: <span id="level"></span></h5>
+            <p>Time: <span id="time"></span></p>
+            <p>Fails: <span id="fails"></span></p>
+        </div>
+        <div class="reload" id="reload"></div>
+    </div>
+</div>
+
+    <div class="game">
+        <div class="doHelp suu">
+            <img src="style/img/help.png" alt="">
+            <span class="dh-tool">You Can Do Help Every 1Min</span>
+        </div>
+        <nav>
+            <img id="pause" class="pause-now" src="img/pause-circle-outline.svg" alt="">
+            <div class="progress-bar">
+                <img src="img/time-outline.svg" alt="">
+                <div class="progress">
+                    <div class="progress-inner"></div>
+                </div>
+                <span>00:00</span>
+            </div>
+            <div class="fails">
+                <p>Fails</p>
+                <span>0</span>
+            </div>
+        </nav>
+        <div class="test" style="display: none;"></div>
+
+        <div class="cards-container smallest"></div>
+        <div class="cards-container small"></div>
+        <div class="cards-container normal"></div>
+        <div class="cards-container large"></div>
+        <div class="cards-container largest"></div>
+
+    </div>
+    <!-- End Game -->
+    <!-- Start Sound -->
+    <audio id="background-sound" src="audio/background-sound.mp3" preload="auto" hidden loop></audio>
+    <audio id="fail" src="audio/fail.mp3" preload="auto" hidden></audio>
+    <audio id="success" src="audio/success.mp3" preload="auto" hidden></audio>
+    <audio id="btn-hover" src="audio/Button-hover.wav" preload="auto" hidden></audio>
+    <audio id="btn-click" src="audio/Button-click-2.wav" preload="auto" hidden></audio>
+    <audio id="btn-back" src="audio/Button-back.ogg" preload="auto" hidden></audio>
+    <audio id="wining" src="audio/Wining.wav" preload="auto" hidden></audio>
+    <audio id="game-over-sound" src="audio/Game-over.wav" preload="auto" hidden></audio>
+    <audio id="notification" src="audio/Notification.wav" preload="auto" hidden></audio>
+    <!-- End Sound -->
+
+    <script src="main.js"></script>
+
+</body>
+</html>

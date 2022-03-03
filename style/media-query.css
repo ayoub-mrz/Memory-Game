@@ -136,9 +136,6 @@
   .leaderBoard .history {
     height: 324px;
   }
-  .options {
-    left: -80%;
-  }
   .difficulty ul li.chose5 {
     display: none;
   }

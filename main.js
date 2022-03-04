@@ -222,7 +222,7 @@ function anmGet(ctn) {
 }
 // Animations Hide
 function anmHide(ctn) {
-    ctn.style.transform = "translate(-200%, 0)"; 
+    ctn.style.transform = "translate(-300%, 0)"; 
     setTimeout(() => { ctn.style.display = "none"; }, 1000);
 }
 // toggleClass
